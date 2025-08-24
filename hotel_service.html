@@ -116,23 +116,23 @@
         .food-description {
             margin: auto 1.5rem;
         }
+
         .font-title {
-  font-size: 1.8rem;
-  font-weight: 400;
-  color: white !important;
-}
+            font-size: 1.8rem;
+            font-weight: 400;
+            color: white !important;
+        }
 
-.food-description p {
-  font-size: 1.4rem;
-  color: #555;
-  font-weight: 500;
-}
+        .food-description p {
+            font-size: 1.4rem;
+            color: #555;
+            font-weight: 500;
+        }
 
-.food-description .food-price {
-  color: #d80000;
-  font-weight: 700;
-}
-
+        .food-description .food-price {
+            color: #d80000;
+            font-weight: 700;
+        }
     </style>
 </head>
 
@@ -188,35 +188,47 @@
     </footer>
 
     <section id="food-menu">
-        <h2 class="food-menu-heading">Food Menu</h2>
-        <div class="food-menu-container container">
-            <div class="food-menu-item">
-                <div class="food-img">
-                    <img src="https://i.postimg.cc/wTLMsvSQ/food-menu1.jpg" alt="" />
+        <div class="container">
+            <div class="row">
+                <h2 class="food-menu-heading">Food Menu</h2>
+                <div class="col-md-6">
+                    <div class="food-menu-container container">
+                        <div class="food-menu-item">
+                            <div class="food-img">
+                                <img src="https://i.postimg.cc/wTLMsvSQ/food-menu1.jpg" alt="" />
+                            </div>
+                            <div class="food-description">
+                                <h3 class="food-titile">Food Menu Item 1</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+                                    quae.
+                                </p>
+                                <p class="food-price">Price: &#8377; 250</p>
+                                <p>Review</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="food-description">
-                    <h2 class="food-titile">Food Menu Item 1</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-                        quae.
-                    </p>
-                    <p class="food-price">Price: &#8377; 250</p>
+                <div class="col-md-6">
+                    <div class="food-menu-container container">
+                        <div class="food-menu-item">
+                            <div class="food-img">
+                                <img src="https://i.postimg.cc/sgzXPzzd/food-menu2.jpg" alt="" />
+                            </div>
+                            <div class="food-description">
+                                <h3 class="food-titile">Food Menu Item 2</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+                                    quae.
+                                </p>
+                                <p class="food-price">Price: &#8377; 250</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="food-menu-item">
-                <div class="food-img">
-                    <img src="https://i.postimg.cc/sgzXPzzd/food-menu2.jpg" alt="error" />
-                </div>
-                <div class="food-description">
-                    <h2 class="food-titile">Food Menu Item 2</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
-                        quae.
-                    </p>
-                    <p class="food-price">Price: &#8377; 250</p>
-                </div>
-            </div>
-           
+            
+
 
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
                     integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
